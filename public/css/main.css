@@ -9,3 +9,7 @@ ul{
     list-style: none;
 }
 
+.users-list-div{
+    width: auto;
+    margin-left: 5%;
+}

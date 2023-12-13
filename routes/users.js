@@ -6,7 +6,7 @@ router.post("/users", (req, res, next) => {
   res.redirect("/");
 });
 router.get("/users", (req, res, next) => {
-  res.render("users", { pageTitle: "Users", usernames: usersList });
+  res.render("users", { pageTitle: "Users", usernames: usersList ,path: '/users'});
 });
 
 module.exports = {
