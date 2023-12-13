@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
+const homeRoute = require("./routes/home");
 const app = express();
 
 app.set("view engine", "ejs");
