@@ -9,4 +9,7 @@ app.set("views", "views");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
+
+app.use(homeRoute)
+
 app.listen(3000);

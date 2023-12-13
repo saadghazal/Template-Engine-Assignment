@@ -1,0 +1,36 @@
+
+
+.form-control {
+    margin: 1rem 0;
+    
+    margin: 20px;
+}
+
+.form-control label,
+.form-control input {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+.form-control input {
+    border: none;
+    background-color: #A6CF98;
+    height: 30px;
+    font: inherit;
+    border-radius: 2px;
+    width: 15%;
+}
+
+.form-control input:focus {
+    outline-color: #00695c;
+}
+button{
+    height: 30px;
+    width: 15.5%;
+    background-color: #FA7070;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
